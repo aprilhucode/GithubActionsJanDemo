@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    @GetMapping(value = {"/", "/demo", "/another-demo"}) // match both "/" and "/demo"
+    @GetMapping(value = {"/", "/demo"}) // match both "/" and "/demo"
     public String demo() {
-        return "demo works!";
+        return "demo does not work";
     }
 
 }
