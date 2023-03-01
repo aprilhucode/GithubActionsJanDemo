@@ -8,7 +8,7 @@ public class DemoController {
 
     @GetMapping(value = {"/", "/demo"}) // match both "/" and "/demo"
     public String demo() {
-        return "demo does not work";
+        return "demo works again!!";
     }
 
 }
